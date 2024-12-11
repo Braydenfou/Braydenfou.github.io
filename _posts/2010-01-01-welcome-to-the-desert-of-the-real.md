@@ -1,13 +1,13 @@
 ---
-date: 2019-05-16 23:48:05
+date: "2019-05-16 23:48:05"
 layout: post
-title: 'Welcome to my personal website.'
-subtitle: 'If you'd like to more about me click the button below me.'
-description: ''
+title: "Welcome to my personal website."
+subtitle: "If you'd like to know more about me, click the button below me."
+description: ""
 image: >
-  https://media.licdn.com/dms/image/v2/D4E22AQFSGVghn4sxFQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1705069578308?e=1736985600&v=beta&t=9E-mkOtbjkiRbWXBfYGtgTQpK1QcmE-wvxUHNffBSFI
+  https://media.licdn.com/dms/image/v2/D4E22AQFSGVghn4sxFQ/feedshare-shrink_2048_1536/0/1705069578308?e=1736985600&v=beta&t=9E-mkOtbjkiRbWXBfYGtgTQpK1QcmE-wvxUHNffBSFI
 optimized_image: >
-  https://media.licdn.com/dms/image/v2/D4E22AQFSGVghn4sxFQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1705069578308?e=1736985600&v=beta&t=9E-mkOtbjkiRbWXBfYGtgTQpK1QcmE-wvxUHNffBSFI
+  https://media.licdn.com/dms/image/v2/D4E22AQFSGVghn4sxFQ/feedshare-shrink_2048_1536/0/1705069578308?e=1736985600&v=beta&t=9E-mkOtbjkiRbWXBfYGtgTQpK1QcmE-wvxUHNffBSFI
 category: blog
 tags:
   - welcome
@@ -15,6 +15,7 @@ tags:
 author: mranderson
 paginate: true
 ---
+
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
