@@ -5,7 +5,7 @@ title: Welcome to my personal website.
 subtitle: 'If you'd like to more about me click the button below me.'
 description:
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+  https://media.licdn.com/dms/image/v2/D4E22AQFSGVghn4sxFQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1705069578308?e=1736985600&v=beta&t=9E-mkOtbjkiRbWXBfYGtgTQpK1QcmE-wvxUHNffBSFI
 optimized_image: >-
   https://media.licdn.com/dms/image/v2/D4E22AQFSGVghn4sxFQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1705069578308?e=1736985600&v=beta&t=9E-mkOtbjkiRbWXBfYGtgTQpK1QcmE-wvxUHNffBSFI
 category: blog
