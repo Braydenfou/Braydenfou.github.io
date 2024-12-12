@@ -475,17 +475,18 @@ main {
 .project:hover {
   transform: translateY(-10px) scale(1.05);
   transition: transform 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px;
 }
 
 
 
 .section-box {
-  background-color: var(--clr-bg-alt);
   box-shadow: var(--shadow); 
   padding: 2em;
   border-radius: 8px;
   margin: 2em 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px;
 }
 
 .section-box:hover {
