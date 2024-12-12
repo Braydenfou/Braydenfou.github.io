@@ -234,6 +234,13 @@ main {
   text-transform: uppercase;
 }
 
+.techstack__title {
+  text-align: center;
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 .section__sub-title {
   text-align: center;
   margin-bottom: 1em;

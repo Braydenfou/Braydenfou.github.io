@@ -1,7 +1,4 @@
 # My Perosnal Website
 
-Welcome.
+Welcome to my website.
 
-## License
-
-Template: Raj Shekhar
