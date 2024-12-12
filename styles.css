@@ -230,8 +230,15 @@ main {
 
 .section__title {
   text-align: center;
+  margin-bottom: 3em;
+  text-transform: uppercase;
+}
+
+.section__sub-title {
+  text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
+  font-size:larger;
 }
 
 .nav__list {
