@@ -1,334 +1,302 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Brayden Fournier</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        <a href="https://braydenfou.github.io/" class="link"
-          >BF.</a
-        >
-      </h3>
 
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
-          </li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Brayden Fournier</title>
+</head>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://braydenfou.github.io/" class="link">BF.</a>
+    </h3>
 
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
 
-    <main>
-      <!-- About -->
-      <div class="about center">
-        <h1>Hi, I am <span class="about__name">Brayden Fournier.</span></h1>
-        <h2 class="about__role">A Full-Stack Developer.</h2>
-        <p class="about__desc">
-          Third-year computer science student at John Abbott College, with a keen interest in computers and the behind the scene mechanics. 
-          Extremely passionate about creating and refining innovative programs as well as the intricate details in A.I. Not only that, but very 
-          intrigued by the many topics within the field. Determined and eager to expand my knowledge within the vast field in computer science.
-        </p>
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
 
-        <div class="about__contact center">
-          <a href="/Images/FournierBrayden.pdf">
-            <span class="btn btn--outline">Resume</span>
-          </a>
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
 
-          <a
-            href="https://github.com/Braydenfou"
-            aria-label="github"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, I am <span class="about__name">Brayden Fournier.</span></h1>
+      <h2 class="about__role">A Full-Stack Developer.</h2>
+      <p class="about__desc">
+        Third-year computer science student at John Abbott College, with a keen interest in computers and the behind the
+        scene mechanics.
+        Extremely passionate about creating and refining innovative programs as well as the intricate details in A.I.
+        Not only that, but very
+        intrigued by the many topics within the field. Determined and eager to expand my knowledge within the vast field
+        in computer science.
+      </p>
 
-          <a
-            href="https://www.linkedin.com/in/brayden-fournier-b10b03187/"
-            aria-label="linkedin"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
-
-        <div class="projects__grid">
-          <div class="project">
-            <h3>Botnet Simulation</h3>
-            <p class="project__description">
-              This project demonstrates a simple botnet simulation using Python. The bots can connect to a control server and execute commands, such as performing a UDP flood attack.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">Python Socket Library</li>
-            </ul>
-
-            <a
-              href="https://github.com/Braydenfou/Botnet-Simulation"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Calendar App</h3>
-            <p class="project__description">
-              Home Calendar is your go-to application for organizing daily, weekly, and monthly activities. Built using Windows Presentation Foundation (WPF), it provides a user-friendly interface for seamless task and event management.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com/ryanwiwcharyk/appdev1-iforgor-HomeCalendar"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Tranquility</h3>
-            <p class="project__description">
-              This is a meditation app.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Kotlin</li>
-              <li class="project__stack-item">Jetpack Compose</li>
-              <li class="project__stack-item">Firebase</li>
-              <li class="project__stack-item">OpenAi API</li>
-            </ul>
-
-            <a
-              href="https://github.com/JasonM220/AppDev2-Project"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-          </div>
-          
-
-          <div class="project">
-            <h3>SoundSpace</h3>
-            <p class="project__description">
-              Audio based social media platform.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">Handlebars</li>
-              <li class="project__stack-item">PostgreSQL</li>
-            </ul>
-
-            <a
-              href="https://github.com/Braydenfou/SoundSpace"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-          </div>
-
-
-          <div class="project">
-            <h3>Simple Vending Machine App</h3>
-            <p class="project__description">
-              Vending machine built using WPF.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">JavaScript</li>
-            </ul>
-
-            <a
-              href="https://github.com/Braydenfou/Simple-Vending-Machine"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-          </div>
-
-
-
-          <div class="project">
-            <h3>Portfolio Website</h3>
-            <p class="project__description">
-              You're already here!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">CSS</li>
-              <li class="project__stack-item">HTML</li>
-            </ul>
-
-            <a
-              href="https://github.com/Braydenfou/braydenfou.github.io"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://braydenfou.github.io/"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-
-
-          <div class="project">
-            <h3>MineQuest</h3>
-            <p class="project__description">
-              Coming Soon...
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">JavaScript</li>
-            </ul>
-
-            <a
-              href="https://github.com/Braydenfou/braydenfou.github.io"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-          </div>
-
-          
-
-
-
-
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section class="section skills" id="skills">
-        <h2 class="techstack__title">Tech Stack</h2>
-
-        <h2 class="section__sub-title">Languages</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">C#</li>
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">SQL</li>
-          <li class="skills__list-item btn btn--plain">TypeScript</li>
-          <li class="skills__list-item btn btn--plain">Full Stack Web
-            Development</li>
-          <li class="skills__list-item btn btn--plain">Python</li>
-          <li class="skills__list-item btn btn--plain">Kotlin</li>
-          <li class="skills__list-item btn btn--plain">LINQ</li>
-          <li class="skills__list-item btn btn--plain">Arduino Iot</li>
-          <li class="skills__list-item btn btn--plain">HTML/CSS</li>
-        </ul>
-      </section>
-      
-
-      <section class="section skills" id="skills">
-        <h2 class="section__sub-title">Databases</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">MySQL</li>
-          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
-          <li class="skills__list-item btn btn--plain">SQLite</li>
-        </ul>
-      </section>
-
-
-      <section class="section skills" id="skills">
-        <h2 class="section__sub-title">Software Development Life Cycle</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Jira</li>
-          <li class="skills__list-item btn btn--plain">Azure</li>
-          <li class="skills__list-item btn btn--plain">GitHub</li>
-          <li class="skills__list-item btn btn--plain">Agile/Scrum</li>
-          <li class="skills__list-item btn btn--plain">CI/CD</li>
-        </ul>
-      </section>
-
-
-      <section class="section skills" id="skills">
-        <h2 class="section__sub-title">Technologies</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Connected Objects</li>
-          <li class="skills__list-item btn btn--plain">Cloud
-            Computing</li>
-          <li class="skills__list-item btn btn--plain">Cybersecurity</li>
-          <li class="skills__list-item btn btn--plain">CMS - WordPress</li>
-        </ul>
-      </section>
-
-
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:rjshekhar.official@gmail.com">
-          <span class="btn btn--outline">Email me</span>
+      <div class="about__contact center">
+        <a href="/Images/FournierBrayden.pdf">
+          <span class="btn btn--outline">Resume</span>
         </a>
-      </section>
-    </main>
 
-    <footer class="footer">
-      <a
-        href="https://github.com/Braydenfou"
-        class="link footer__link"
-      >
-        Designed & Developed By Brayden Fournier
-      </a>
-    </footer>
+        <a href="https://github.com/Braydenfou" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
 
-    <div class="scroll-container">
-      <div class="scroll-top">
-        <a aria-label="Scroll up" href="#top">
-          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        <a href="https://www.linkedin.com/in/brayden-fournier-b10b03187/" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
         </a>
       </div>
     </div>
 
-    <script src="./script.js"></script>
-  </body>
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Botnet Simulation</h3>
+          <p class="project__description">
+            This project demonstrates a simple botnet simulation using Python. The bots can connect to a control server
+            and execute commands, such as performing a UDP flood attack.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Python Socket Library</li>
+          </ul>
+
+          <a href="https://github.com/Braydenfou/Botnet-Simulation" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Calendar App</h3>
+          <p class="project__description">
+            Home Calendar is your go-to application for organizing daily, weekly, and monthly activities. Built using
+            Windows Presentation Foundation (WPF), it provides a user-friendly interface for seamless task and event
+            management.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">SASS</li>
+            <li class="project__stack-item">TypeScript</li>
+            <li class="project__stack-item">React</li>
+          </ul>
+
+          <a href="https://github.com/ryanwiwcharyk/appdev1-iforgor-HomeCalendar" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Tranquility</h3>
+          <p class="project__description">
+            Tranquility is a meditation companion designed to help users cultivate mindfulness and improve their
+            meditation practice. The app's seamless design and intelligent features support both beginners and seasoned
+            meditators by making meditation accessible and personalized.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Kotlin</li>
+            <li class="project__stack-item">Jetpack Compose</li>
+            <li class="project__stack-item">Firebase</li>
+            <li class="project__stack-item">OpenAi API</li>
+          </ul>
+
+          <a href="https://github.com/JasonM220/AppDev2-Project" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+
+        <div class="project">
+          <h3>SoundSpace</h3>
+          <p class="project__description">
+            SoundSpace is designed to provide a platform for music enthusiasts to explore songs, share their thoughts
+            through ratings and comments, and manage their profiles. The application includes robust authentication and
+            efficient database management to ensure a seamless user experience.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">TypeScript</li>
+            <li class="project__stack-item">Handlebars</li>
+            <li class="project__stack-item">PostgreSQL</li>
+          </ul>
+
+          <a href="https://github.com/Braydenfou/SoundSpace" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+
+        <div class="project">
+          <h3>Simple Vending Machine App</h3>
+          <p class="project__description">
+            The Simple Vending Machine application showcases a selection of 12 items, each with an associated price.
+            Users can interact with the vending machine to add items to their cart, clear their selections, and complete
+            transactions via cash or card. Upon successful payment, the application displays a receipt summarizing the
+            purchase.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com/Braydenfou/Simple-Vending-Machine" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+
+
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p class="project__description">
+            This portfolio website serves as a platform to highlight my experience as a full-stack developer. It
+            includes detailed sections for projects, skills, and contact information, as well as links to my GitHub and
+            LinkedIn profiles.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">HTML</li>
+          </ul>
+
+          <a href="https://github.com/Braydenfou/braydenfou.github.io" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://braydenfou.github.io/" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+
+
+        <div class="project">
+          <h3>MineQuest</h3>
+          <p class="project__description">
+            Coming Soon...
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com/Braydenfou/braydenfou.github.io" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+
+
+
+
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="techstack__title">Tech Stack</h2>
+      <div class="skills__grid">
+        <!-- Languages -->
+        <div>
+          <h2 class="section__sub-title">Languages</h2>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">C#</li>
+            <li class="skills__list-item btn btn--plain">JavaScript</li>
+            <li class="skills__list-item btn btn--plain">SQL</li>
+            <li class="skills__list-item btn btn--plain">TypeScript</li>
+            <li class="skills__list-item btn btn--plain">Full Stack Web Development</li>
+            <li class="skills__list-item btn btn--plain">Python</li>
+            <li class="skills__list-item btn btn--plain">Kotlin</li>
+            <li class="skills__list-item btn btn--plain">LINQ</li>
+            <li class="skills__list-item btn btn--plain">Arduino IoT</li>
+            <li class="skills__list-item btn btn--plain">HTML/CSS</li>
+          </ul>
+        </div>
+        
+        <!-- Software Development Life Cycle -->
+        <div>
+          <h2 class="section__sub-title">Software Development Life Cycle</h2>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">Jira</li>
+            <li class="skills__list-item btn btn--plain">Azure</li>
+            <li class="skills__list-item btn btn--plain">GitHub</li>
+            <li class="skills__list-item btn btn--plain">Agile/Scrum</li>
+            <li class="skills__list-item btn btn--plain">CI/CD</li>
+          </ul>
+        </div>
+
+        <!-- Databases -->
+        <div>
+          <h2 class="section__sub-title">Databases</h2>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">MySQL</li>
+            <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+            <li class="skills__list-item btn btn--plain">SQLite</li>
+          </ul>
+        </div>
+
+        <!-- Technologies -->
+        <div>
+          <h2 class="section__sub-title">Technologies</h2>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">Connected Objects</li>
+            <li class="skills__list-item btn btn--plain">Cloud Computing</li>
+            <li class="skills__list-item btn btn--plain">Cybersecurity</li>
+            <li class="skills__list-item btn btn--plain">CMS - WordPress</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:braydenafournier@gmail.com">
+        <span class="btn btn--outline">Email me</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/Braydenfou" class="link footer__link">
+      Designed & Developed By Brayden Fournier
+    </a>
+  </footer>
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
