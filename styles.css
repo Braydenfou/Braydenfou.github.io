@@ -248,13 +248,13 @@ main {
   text-align: center;
   margin-bottom: 3em;
   text-transform: uppercase;
+  color: var(--clr-primary);
 }
 
 .techstack__title {
   text-align: center;
   margin-bottom: 3em;
   text-transform: uppercase;
-  text-decoration: underline;
 }
 
 .section__sub-title {
@@ -262,6 +262,7 @@ main {
   margin-bottom: 1em;
   text-transform: uppercase;
   font-size:larger;
+  
 }
 
 .nav__list {
@@ -481,17 +482,39 @@ main {
 
 
 .section-box {
-  box-shadow: var(--shadow); 
+  color: var(--clr-fg-alt);
+  box-shadow: var(--shadow);
   padding: 2em;
   border-radius: 8px;
   margin: 2em 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px;
+  color: var(--clr-fg-alt);
+  animation: fadeIn 1s ease-in;
 }
 
 .section-box:hover {
   transform: translateY(-5px);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px;
 }
+
+.green_accent {
+  color: var(--clr-primary);
+}
+
+.email {
+  align-content: center;
+  margin-bottom: 2em;
+  font-size: medium;
+}
+
+.contact_section_title {
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  color: var(--clr-primary);
+}
+
+
 
 
