@@ -26,24 +26,33 @@ body {
   background-color: var(--clr-bg);
 }
 
+
+
+/* Light Theme */
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-bg: #faf3eb;
+  --clr-bg-alt: #fffaf0;
+  --clr-fg: #333333;
+  --clr-fg-alt: #555555;
+  --clr-primary: #7da88a;
+  --clr-secondary: #5d8a6d;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+/* Dark Theme */
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-bg: #2a2a2a;
+  --clr-bg-alt: #333333;
+  --clr-fg: #e0e0e0;
+  --clr-fg-alt: #bcbcbc;
+  --clr-primary: #7da88a;
+  --clr-secondary: #5d8a6d;
+  --shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
 }
+
+
+
+
 
 ::-moz-selection {
   background: var(--clr-primary);
@@ -437,3 +446,44 @@ main {
     display: none;
   }
 }
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.section {
+  animation: fadeIn 1s ease-in;
+}
+
+/* Hover animation on project tiles */
+.project:hover {
+  transform: translateY(-10px) scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+
+.section-box {
+  background-color: var(--clr-bg-alt);
+  box-shadow: var(--shadow); 
+  padding: 2em;
+  border-radius: 8px;
+  margin: 2em 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-box:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px;
+}
+
+
