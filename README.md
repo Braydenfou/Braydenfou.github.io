@@ -1,6 +1,6 @@
 # Brayden Fournier - Portfolio Website
 
-Welcome to my portfolio website! This is a showcase of my work, skills, and projects as a full-stack developer. The site is designed to provide a clear and engaging overview of my expertise in web and software development, while also allowing visitors to explore my personal projects and professional journey.
+Welcome to my portfolio website! This is a showcase of my work, skills, and projects as a full-stack developer.
 
 ## Table of Contents
 
